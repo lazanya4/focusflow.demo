@@ -1,0 +1,184 @@
+body {
+    background-color: #f4efe9;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(22, 28, 28);
+    font-family:'Times New Roman', Times, serif;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(22, 28, 28);
+}
+
+p {
+    color: rgb(22, 28, 28);
+    text-align: center;
+}
+
+.timer-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.digit-card {
+    background: white;
+    color: black;
+    width: 60px;
+    height: 80px;
+    border-radius: 12px;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.separator {
+    font-size: 2rem;
+    color: #333333;
+}
+
+.progress-container {
+    width: 100%;
+    height: 12px;
+    background: #334155;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.progress-fill {
+    height: 100%;
+    background: white;
+    width: 0%;
+    transition: width 0.5s ease;
+}
+
+.progress-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    color: #94a3b8;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 140px;
+}
+
+.pomodoro-main-card {
+    background: #f7f3ec;
+    width: 600px;
+    padding: 40px;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.quote-container {
+    background: #eae4db;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.btn{
+    background-color: #333333;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.btn:hover {
+    transition: 0.3s ease;
+    transform: translateY(-3px);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #333333;
+  display: flex;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+.baslik {
+  margin-left: auto;
+  display: block;
+  color: white;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+.dropbtn {
+  background-color: #333333;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.submenu {
+  position: relative;
+  display: inline-block;
+}
+
+.submenu-content {
+  display: none;
+  position: absolute;
+  background-color: #333333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.submenu-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.submenu-content a:hover {background-color: #111111;}
+
+.submenu:hover .submenu-content {display: block;}
+
+.submenu:hover .dropbtn {background-color: #111111;}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

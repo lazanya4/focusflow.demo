@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>
+            Project Flowfocus | Pomodoro
+        </title>
+        <link rel="stylesheet" href="pomodoro.css">
+        <script src="pomodoro.js" defer></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="../anasayfa/anasayfa.html">Ana Sayfa</a></li>
+                <div class="submenu">
+                    <button class="dropbtn">Araçlar</button>
+                    <div class="submenu-content">
+                        <a href="../pomodoro/pomodoro.html">Pomodoro</a>
+                        <a href="../gorevler/gorevler.html">Görevler</a>
+                    </div>
+                </div>
+                <li><a href="../focus/focus.html">Odak Hakkında</a></li>
+                <li><a href="../iletisim/iletisim.html">İletişim</a></li>
+                <li class="baslik">Project Flowfocus 2026</li>
+            </ul>
+        </nav>
+        <main class="content">
+        <div class="card pomodoro-main-card">
+            <div class="timer-card-container">
+                <div class="digit-card" id="m1">2</div>
+                <div class="digit-card" id="m2">5</div>
+                <div class="separator">•</div>
+                <div class="digit-card" id="s1">0</div>
+                <div class="digit-card" id="s2">0</div>
+            </div>
+            <div class="progress-section">
+                <div class="progress-container">
+                    <div class="progress-fill" id="progress-fill" style="width: 0%;"></div>
+                </div>
+                <div class="progress-meta">
+                    <span>İlerleme:</span>
+                    <span id="progress-percent">0%</span>
+                </div>
+            </div>
+            <div class="quote-container" style="margin-top: 25px; padding-top: 20px; border: 1px solid #334155;">
+                <p style="font-size: 1rem; line-height: 1.4; color: rgb(22, 28, 28); margin-bottom: 8px;">
+                    <i id="quote-text">"Odaklanma gücü, dehanın yarısıdır."</i>
+                </p>
+                <p id="quote-author" style="font-size: 0.8rem; color: rgb(22, 28, 28); font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">
+                    - VOLTAIRE
+                </p>
+            </div>
+            <div class="controls" style="margin-top: 20px;">
+                <button id="startBtn" class="btn" onclick="startTimer()">Başlat</button>
+                <button id="pauseBtn" class="btn" onclick="pauseTimer()" style="display:none;">Durdur</button>
+                <button class="btn btn-outline" onclick="resetTimer()">Sıfırla</button>
+            </div>
+        </div>
+        </main>
+        <footer><br>Project Flowfocus 2026 | Her Hakkı Saklıdır.<br><p></p></footer>
+    </body>
+</html>
