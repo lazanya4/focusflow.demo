@@ -1,1 +1,1 @@
-These files contains DEMO VERSİON of Project Flowfocus, a pomodoro website. Please remember that while interacting with and examining the project. And feel free to contect with me from Gmail, Instagram or X (old Twitter) for any for all kinds of ideas and criticisms.
+These files contains DEMO VERSİON of Project Flowfocus, a pomodoro website. Please remember that while interacting with and examining the project. And feel free to contect with me from Email, Instagram or X (old Twitter) for any for all kinds of ideas and criticisms.
